@@ -60,7 +60,7 @@ header {
 }
 
 header h1 {
-    padding-top: 30%;
+    padding-top: 40%;
     padding-bottom: 5%;
     text-align: center;
     color: white;
@@ -365,8 +365,12 @@ footer p {
 }
 
 @media (max-width: 650px) {
+    * {
+        text-align: center;
+    }
     .section3List {
         flex-direction: column;
+        padding-left: 0;
     }
     .section3List li {
         width: 100%;
@@ -396,9 +400,6 @@ footer p {
 
 @media (max-width: 375px) {
 
-    * {
-        text-align: center;
-    }
     header {
         height: 50vh;
     }
@@ -415,7 +416,8 @@ footer p {
     }
 
     .artist4Img {
-        top: -15px;
+        top: 0;
+        padding-top: 10%;
     }
     .donateButton h3 {
         padding-bottom: 20%;
